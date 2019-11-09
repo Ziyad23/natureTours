@@ -1,9 +1,17 @@
+@import "assets/variables.scss";
+
+
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
-.header{
-    background-color: green;
-    
+body{
+
+    .content-section{
+        background-color: $color-primary-background;
+        height: 1000px;
+        margin:3.5%;
+    }
 }
