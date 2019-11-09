@@ -1,0 +1,23 @@
+{
+  "name": "naturetours",
+  "version": "1.0.0",
+  "description": "This is a repo. that contains a simple landing page for a nature tours website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --w index.scss index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziyad23/natureTours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ziyad23/natureTours/issues"
+  },
+  "homepage": "https://github.com/Ziyad23/natureTours#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
