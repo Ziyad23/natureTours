@@ -1,17 +1,89 @@
 @import "assets/variables.scss";
 
-
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
 
+
+
 body{
 
-    .content-section{
-        background-color: $color-primary-background;
-        height: 1000px;
-        margin:3.5%;
+    .navigation-bar {
+        border: red solid 1px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .navigation-logo{
+            padding:20px;
+            margin:20px;
+            border: black solid 1px;
+            width:250px;
+        }
+
+        .navigation-buttons{
+            padding:20px;
+            margin:10px;
+            border: green solid 1px;
+            width:60%;
+            display: flex;
+            flex-direction: row;
+            justify-items: space-around;
+            
+            .navigation-button {
+                border: blue solid 1px;
+                width: 33%;
+            }
+        }
+
+
+
     }
+    .section-banner{
+        background: linear-gradient(black,grey);
+        padding:200px;
+        
+    }
+
+    .services-section {
+        border: red solid 1px;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+        .service-box {
+            border: blue solid 1px;
+            width: 33%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            
+        }
+
+        .traditional-logo {
+            border: green solid 1px;
+            width: 30%;
+            height: 40%;
+            border-radius: 50%;
+        }
+
+        .service-text {
+            border: orange 1px solid;
+            width: 100%;
+            height: 60%;
+        }
+
+
+
+        
+
+        
+    }
+
 }
